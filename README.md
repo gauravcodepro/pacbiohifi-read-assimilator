@@ -1,4 +1,4 @@
-# pacbiohifi_read_check
+# pacbiohifi_read_assimilator
 a pacbiohifi read check for the quick view of the read types and making it easy for the fasta manipulations and read extractions. 
 
 Gaurav Sablok \
