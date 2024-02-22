@@ -15,9 +15,9 @@ if [[ -f "${reads}" ]]; then
 fi
 
           echo "storing ids on the run"
-grep "^>" "${reads%.*}".head.fastq | \
+grep "^>" "${reads%.*}".head.fastq | 
                    sed "s/ /|/g" | cut -f 1 -d "|" | sed "s/>@//g" >fastaids.txt
-cat fastaids.txt | while read line; do \
+cat fastaids.txt | while read line; do 
                     grep -A 1 "${line}" "${reads%.*}".head.fastq >"$line".pacbiohifi.fasta
 done
 
