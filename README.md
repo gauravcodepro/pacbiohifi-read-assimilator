@@ -13,4 +13,4 @@ Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
 University of Potsdam \
-Potsdam,Germany \
+Potsdam,Germany 
