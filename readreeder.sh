@@ -1,6 +1,6 @@
 #!/bin/bash
 # Universitat Potsdam
-# Author Gaurav Sablok
+# Author Gaurav 
 # date: 2024-2-22
 # a read checker for the pacbiohifi reads making seqtk working for the hifi
 # it is completely based on the regular expression and it is absolutely fast
